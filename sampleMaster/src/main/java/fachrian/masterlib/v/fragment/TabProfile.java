@@ -27,11 +27,11 @@ public class TabProfile extends Fragment implements View.OnClickListener {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.tab_profile, container, false);
+        View view = inflater.inflate(R.layout.tab_tugas, container, false);
         context = getContext();
         ImageView foto = (ImageView) view.findViewById(R.id.foto);
         TextView nama = (TextView) view.findViewById(R.id.nama);
-        TextView tlp = (TextView) view.findViewById(R.id.tlp);
+        TextView tlp = (TextView) view.findViewById(R.id.alamat);
 
         GlideMaster.setImage(
                 context,
@@ -41,14 +41,14 @@ public class TabProfile extends Fragment implements View.OnClickListener {
         nama.setText(SharedPreferences.getNAME(context));
         tlp.setText(SharedPreferences.getTLP(context));
 
-        view.findViewById(R.id.logout).setOnClickListener(this);
+        view.findViewById(R.id.alamat).setOnClickListener(this);
         return view;
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.logout:
+            case R.id.alamat:
                 Fungsi.logout(context);
                 break;
         }
