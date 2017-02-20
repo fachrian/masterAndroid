@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "164648582799",
+    "firebase_url": "https://fir-rsml.firebaseio.com",
+    "project_id": "firebase-rsml",
+    "storage_bucket": "firebase-rsml.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164648582799:android:b29ea12986a22439",
+        "android_client_info": {
+          "package_name": "fachrian.rsml"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164648582799-gvk3ea9opc4rbblo0pr6p49ivifnm6vf.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "164648582799-6ifc8go5r6mc4foada58btus7ltipe62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk72EuZeZCjC10ocKna7fBu2KDrp0lR4I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164648582799-gvk3ea9opc4rbblo0pr6p49ivifnm6vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
