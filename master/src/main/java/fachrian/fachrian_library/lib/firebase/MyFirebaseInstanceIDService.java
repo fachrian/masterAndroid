@@ -45,7 +45,7 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
      * @param token The new token.
      */
     private void sendRegistrationToServer(String token) {
-        SharedPreferences.setPUSH_NOTIFICATION_KEY(this, token);
+//        SharedPreferences.setPUSH_NOTIFICATION_KEY(this, token);
         // TODO: Implement this method to send token to your app server.
     }
 }
